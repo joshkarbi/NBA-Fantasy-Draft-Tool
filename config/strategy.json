@@ -1,0 +1,18 @@
+{
+    "player_stat_categories":   {
+        "true_shooting_percentage": 0.05,
+        "total_rebound_percentage": 0.05,
+        "games_started": 3,
+        "games_played": 3,
+        "minutes_played": 0.01,
+        "made_free_throws": 0.05,
+        "steals":0.05,
+        "blocks":0.05,
+        "made_three_point_field_goals": 2,
+        "assists": 2,
+        "made_field_goals":2,
+        "offensive_rebounds": 1,
+        "defensive_rebounds": 1,
+        "turnovers": -2
+    }
+}
