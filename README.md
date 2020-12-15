@@ -13,6 +13,12 @@ jupyter nbextension enable --py widgetsnbextension
 jupyter-notebook
 ```
 
+Use the notebook to scrape data, configure strategy, and draft players.
+During each drafting round, either:
+- Select "My Pick" then hit "Submit" to get a draft recommendation,
+or
+- Select "Others Pick", enter the name (or beginning of the name) of the player drafted, then hit submit to remove player from the available set
+
 # Areas for improvement
 There are clear downfalls to this approach:
 1. It completely ignores rookies.
