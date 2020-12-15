@@ -5,14 +5,12 @@ specified in a strategy. Higher weights should be given to categories active in 
 
 # Dependencies
 basketball_reference_web_scraper, see https://pypi.org/project/basketball-reference-web-scraper/
+ipython widgets
 
 # Running
-1. Scrape player data by running `scrape-player-data.py`
-2. Run player ranking script `rank-players.py` with a configured strategy as an argument
-3. Player rankings are outputted to a file in `output_files` directory, tagged with strategy name
-
-```python
-python3.7 rank-players.py config/strategy.json
+```bash
+jupyter nbextension enable --py widgetsnbextension
+jupyter-notebook
 ```
 
 # Areas for improvement
